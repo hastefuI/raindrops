@@ -24,6 +24,6 @@ claude plugin uninstall raindrops@hasteful --scope user
 
 ## License
 
-Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Licensed under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](./LICENSE) for details.
 
 Copyright (c) 2026-present hasteful
