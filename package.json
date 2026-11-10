@@ -1,0 +1,20 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free native box-breathing mod for Claude Code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hastefuI/raindrops.git"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate": "claude plugin validate .claude-plugin/plugin.json --strict && claude plugin validate .claude-plugin/marketplace.json --strict",
+    "test:mod": "claude plugin test ."
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

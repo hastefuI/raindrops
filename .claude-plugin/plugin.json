@@ -1,0 +1,20 @@
+{
+  "name": "raindrops",
+  "version": "1.0.0",
+  "description": "A native box-breathing mod with a compact indicator and a temporary ASCII rain above the prompt, synced to the breathing phases.",
+  "author": {
+    "name": "hasteful",
+    "url": "https://hasteful.ai"
+  },
+  "homepage": "https://hasteful.ai",
+  "repository": "https://github.com/hastefuI/raindrops",
+  "keywords": [
+    "breathing",
+    "mindfulness",
+    "wellness",
+    "terminal",
+    "mod"
+  ],
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

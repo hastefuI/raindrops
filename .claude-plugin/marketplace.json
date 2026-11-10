@@ -1,0 +1,17 @@
+{
+  "name": "raindrops-marketplace",
+  "owner": {
+    "name": "hasteful"
+  },
+  "plugins": [
+    {
+      "name": "raindrops",
+      "source": "./",
+      "description": "A native box-breathing mod for Claude Code.",
+      "homepage": "https://hasteful.ai"
+    }
+  ],
+  "metadata": {
+    "description": "Local installation catalog for the raindrops native Claude Code mod. The published catalog is https://hasteful.ai/marketplace.json."
+  }
+}

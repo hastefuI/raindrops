@@ -1,0 +1,6 @@
+{
+  "description": "Native breathing command, timer, indicator, and rain.",
+  "modules": [
+    "./register.ts"
+  ]
+}
