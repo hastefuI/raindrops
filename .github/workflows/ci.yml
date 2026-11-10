@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      # Installed for CI only. Bump deliberately to test against a newer host.
+      - run: npm install -g @anthropic-ai/claude-code@2.1.322
+      - run: npm test
+      - run: npm run validate
+      - run: npm run test:mod
